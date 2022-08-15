@@ -2,7 +2,7 @@ function SwitchRus(){
   document.getElementById("myBar").style.display = "block";
   move();
 
-  history.pushState(null, null, "/keras1n/ru/index");
+  history.pushState(null, null, "/keras1n/ru/");
 
   document.getElementById("dropdown").innerHTML = '<button class="lang_btn" onclick="SwitchEng();">EN</button>';
   document.getElementById("subtitle").innerText = "веб дев | гейм дев";

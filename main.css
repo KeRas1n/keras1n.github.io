@@ -6,10 +6,33 @@ html {
   scroll-behavior: smooth;
 }
 body{
- background: #121212;
- color: white;
+ background: #d6d6d6;
+ color: black;
  font-family: 'Roboto', sans-serif;
  font-size: 16px;
+}
+.ava{
+	border-radius: 50px;
+	animation-name: ava-appearing;
+	animation-duration: 1.3s;
+	position: absolute;
+  margin: auto;
+  top: 55px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+}
+@keyframes ava-appearing {
+  0%   {width: 400px;border-radius: 25px; position: absolute;}
+  50%		{border-radius: 50px;}
+  100% {width: 100px;}
+}
+.header{
+	text-align: center;
+}
+.name{
+	margin-top: 50px;
 }
 #myProgress {
   width: 100%;
@@ -25,17 +48,17 @@ body{
 }
 .main-block{
 	animation-name: appearing;
-  animation-duration: 1.3s;
+  animation-duration: 1s;
 
 	margin-top: 25px;
 	margin-bottom: 25px;
 	padding: 25px;
-	background: black;
+	background: #f1f1f1;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 10px;
-	box-shadow: 0 15px 50px rgb(0 0 0);
+	/*box-shadow: 0 15px 50px rgb(255 255 255);*/
 }
 
 @keyframes appearing {
@@ -52,8 +75,11 @@ header > h1, header > h3{
 }
 .socials{
 	margin-top: 30px;
-	text-align: center;
 	height: 150px;
+}
+.socials-holder{
+	display: flex;
+	justify-content: center;
 }
 .subtitle{
 	color: grey;
@@ -66,9 +92,11 @@ header > h1, header > h3{
 
 .dropbtn {
   background: none;
-  color: white;
+  color: black;
   padding: 16px;
   border: none;
+  min-width: 73px;
+  font-size: 15px;
 }
 .center{
 	text-align: center;
@@ -107,7 +135,7 @@ header > h1, header > h3{
 .dropdown:hover .dropdown-content {display: block;}
 
 
-.dropdown:hover .dropbtn {background-color: #121212;}
+.dropdown:hover .dropbtn {background-color: #fff;}
 
 .activated{
 	color: gray;
@@ -129,26 +157,30 @@ header > h1, header > h3{
 	height: 40px;
 }
 .tg{
-	display: inline-block;
+	min-width: 80px;
 }
 .soc_img{
 	transition: .3s;
 }
 .soc-link{
 	background: none;
-border: none;
-border-radius: 55px;
-width: 70px;
-height: 70px;
-transition: .3s;
-}
-.soc-link:hover{
-	box-shadow: 0 13px 19px rgb(0 162 217 / 0.2);
-	cursor: pointer;
+	border: none;
+	border-radius: 55px;
 	width: 80px;
 	height: 80px;
+	transition: .3s;
+	cursor: pointer;
 }
-
+.soc-link:hover{
+	width: 75px;
+	height: 75px;
+}
+.blue-link:hover{
+	box-shadow: 0 13px 19px rgb(0 162 217 / 0.2);
+}
+.red-link:hover{
+	box-shadow: 0 13px 19px rgb(0 162 217 / 0.2);
+}
 
 .soc-link-list{
 	background: none;
@@ -178,6 +210,13 @@ h1{
 	text-align: center;
 	font-family: 'Caveat', cursive;
 }
+.tags{
+	margin: 0;
+	color: grey;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Caveat', cursive;
+}
 .holder{
 	margin-top: 25px;
 	display: flex;
@@ -192,7 +231,7 @@ h1{
 	margin: 10px;
 	padding: 15px;
 	width: 25%;
-	background-color: #121212;
+	background-color: #ffffff;
 	border-radius: 7px;
 	transition: .3s;
 	flex-basis: 250px;
@@ -251,10 +290,10 @@ ul>li{
 a{
 	color: grey;
 	transition: .2s;
+	cursor: pointer;
 }
 a:hover{
-	color: white;
-	cursor: pointer;
+	color: black;
 }
 .list{
 
@@ -263,9 +302,10 @@ a:hover{
 	margin-left: -20px;
 }
 
+/*mobile*/
 
 @media only screen and (max-width: 900px) {
   .main-block{
-  	width: 80%;
+  	width: 100%;
   }
 }
