@@ -29,7 +29,7 @@ function SwitchEng(){
   document.getElementById("myBar").style.display = "block";
   move();
 
-  history.pushState(null, null, "/keras1n");
+  history.pushState(null, null, "/");
 
   document.getElementById("dropdown").innerHTML = '<button class="lang_btn" onclick="SwitchRus();">RU</button>';
   document.getElementById("subtitle").innerText = "web dev | game dev";
