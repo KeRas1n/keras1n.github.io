@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>KeRas1n</title>
 
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="../main.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,41 +16,74 @@
 	<div id="myProgress">
   <div id="myBar"></div>
 </div>
+<img src="../img/ava.jpg" width="100px" class="ava">
 <div class="main-block">
 	<header>
 
 		  <div class="dropdown">
-  <button class="dropbtn"><img src="img/earth.png" width="30px"></button>
+  <button class="dropbtn">RU</button>
   <div class="dropdown-content" id="dropdown">
     <button class="lang_btn" onclick="SwitchEng();">EN</button>
-
   </div>
 </div>
-		<h1>KeRas1n</h1>
-
+<div class="header">
+		<h1 class="name">KeRas1n</h1>
 		<h3 class = "subtitle" id="subtitle">веб дев | гейм дев</h3>
 		<h3 class = "subtitle2" id="subtitle2">Эта страница была сделана просто потому что я не знаю какую ссылку подставлять под "Made by KeRas1n"</h3>
+		</div>
 	</header>
 	<div class="socials">
+		<h1>Ссылки</h1>
+
+		<div class="socials-holder">
+
 		<div class="tg">
-			<a href = "https://telegram.org"><button class = "soc-link"><img class = "soc_img" src="img/Telegram_logo.svg.png" width="70px"></button></a><br> RU
+			<a href = "https://t.me/keras1n4ik"><button class = "soc-link blue-link" ><img class = "soc_img" src="../img/Telegram_logo.svg.png" width="70px"></button></a>
 		</div>
 
 		<div class="tg">
-			<a href = "https://twitter.com"><button class = "soc-link"><img class = "soc_img" src="img/logo-rond-twitter.png" width="70px"></button></a><br>EN
+			<a href = "https://twitter.com/keras0n"><button class = "soc-link blue-link"><img class = "soc_img" src="../img/logo-rond-twitter.png" width="70px"></button></a>
 		</div>
+
+		<div class="tg">
+			<a href = "https://keras1n.itch.io"><button class = "soc-link itch_btn"><img class = "soc_img" src="../img/itch-logo.svg" width="70px"></button></a>
+		</div>
+
+
+	</div>
 
 	</div>
 	<div class="center">
 		<a href="#contact"><button class="card_btn" id="contact_btn">Связаться со мной</button></a>
 	</div>
+		<div class="block">
+		<h1 id="games_title">Игры</h1>
+		<div class="holder">
+
+			<div class="card">
+				<div class = "card_img">
+					<img  src="../img/fnad-logo.png" width="150px">
+				</div>
+				<div class = "card_content" id="fnad">
+					<h1>FNAD</h1>
+					<h2 class="tags">11.02.2022</h2>
+					<p>Пародия на FNAF с Дорой и Мэйби бейби.
+		Игра сделана по рофлу и на момент её создания я знал гораздо меньше о UNITY.
+				</div>
+				<div class="card_actions">
+					<a href = "https://keras1n.itch.io/fnad"><img src = "../img/itch-io-2.svg" width="130px" class="itch_btn"></button></a>
+				</div>
+			</div>
+
+	</div>
+
 	<div class="block">
 		<h1 id="web_title">Веб</h1>
 		<div class="holder">
 
 			<div class="card">
 				<div class = "card_img">
-					<img  src="img/hooigle_logo.png" width="200px">
+					<img  src="../img/hooigle_logo.png" width="200px">
 				</div>
 				<div class = "card_content" id="hooigle">
 					<p>Hooigle - твоя новая кастомизируемая и комфортная домашняя страница.</p> <p>В этом <span class="marked">single page application</span> вы сможете:</p>
@@ -64,7 +97,7 @@
 					Вы можете использовать HOOIGLE как в веб-версии так и в качестве расширения для вашего браузера для авто замены новой вкладки.
 				</div>
 				<div class="card_actions">
-					<a href = "https://hooigle.com"><button class="card_btn" id="website_btn">Сайт <img src="img/new-tab.png" width="18px"></button></a>
+					<a href = "https://keras1n.github.io/hooigle/web"><button class="card_btn" id="website_btn">Веб версия <img src="../img/new-tab.png" width="18px"></button></a>
 				</div>
 
 			</div>
@@ -73,42 +106,17 @@
 	</div>
 
 
-	<div class="block">
-		<h1 id="games_title">Игры</h1>
-		<div class="holder">
 
-			<div class="card">
-				<div class = "card_img">
-					<img  src="img/fnad-logo.png" width="150px">
-				</div>
-				<div class = "card_content" id="fnad">
-					<p>Пародия на FNAF с Дорой и Мэйби бейби. </p> Игра сделана по рофлу и на момент её создания я знал гораздо меньше о UNITY.
-				</div>
-				<div class="card_actions">
-					<a href = "https://keras1n.itch.io/fnad"><img src = "img/itch-io-2.svg" width="130px" class="itch_btn"></button></a>
-				</div>
-			</div>
-
-	</div>
 	<div class="block center" id="contact">
 		<h1 id="contact_title">Связаться со мной</h1>
 		<br>
 		<a href="mailto:keras1n.business@gmail.com">keras1n.business@gmail.com</a>
 		<br>
-		<a href="https://t.me/KeRas1n_bot">Telegram бот</a>
-
-	</div>
-	<div class="block center">
-		<h1 id="extra_title">Тоже я</h1>
-		<br>
-		<a href="https://twitch.tv/lingkeras1n"><button class = "soc-link-list soc-link-tw list"><img src="img/twitch-logo.png" width="100px" ></button></a>
-		<a href="https://www.youtube.com/channel/UCkADlRvksU3bYFiDtXUawEg"><button class = "soc-link-list soc-link-yt list"><img src="img/yt-logo.png" width="100px"></button></a>
-		<a href="https://keras1n.itch.io"><img src="img/itch-logo.svg" width="100px" class="itch_btn"></a>
-
+		<a href="https://t.me/KeRas1n_bot">Telegram Bot</a>
 
 	</div>
 
 </div>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="../script.js"></script>
 </body>
 </html>

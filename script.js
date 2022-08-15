@@ -2,7 +2,7 @@ function SwitchRus(){
   document.getElementById("myBar").style.display = "block";
   move();
 
-  history.pushState(null, null, "/keras1n/ru/");
+  history.pushState(null, null, "/ru");
 
   document.getElementById("dropdown").innerHTML = '<button class="lang_btn" onclick="SwitchEng();">EN</button>';
   document.getElementById("subtitle").innerText = "веб дев | гейм дев";
@@ -21,8 +21,7 @@ function SwitchRus(){
   document.getElementById("games_title").innerText = "Игры";
   document.getElementById("fnad").innerHTML = "<p>Пародия на FNAF с Дорой и Мэйби бейби. </p> Игра сделана по рофлу и на момент её создания я знал гораздо меньше о UNITY.";
    document.getElementById("contact_title").innerText = "Связаться со мной";
-   document.getElementById("extra_title").innerText = "Тоже я";
-   document.getElementById("website_btn").innerHTML = 'Сайт <img src="img/new-tab.png" width="18px">';
+   document.getElementById("website_btn").innerHTML = 'Веб версия <img src="img/new-tab.png" width="18px">';
 
 }
 
@@ -49,8 +48,7 @@ function SwitchEng(){
   document.getElementById("games_title").innerText = "Games";
   document.getElementById("fnad").innerHTML = "<p>A parody on a FNAF with RU girl singers. </p> The game was created for fun and also was my first project and i knew much less about for example Unity and Blender.";
    document.getElementById("contact_title").innerText = "Contact me";
-   document.getElementById("extra_title").innerText = "Also me";
-   document.getElementById("website_btn").innerHTML = 'Website <img src="keras1n/ru/img/new-tab.png" width="18px">';
+   document.getElementById("website_btn").innerHTML = 'Web version <img src="../img/new-tab.png" width="18px">';
 
 }
 
