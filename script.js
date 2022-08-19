@@ -4,11 +4,12 @@ function SwitchRus(){
 
   history.pushState(null, null, "/ru");
 
+  document.getElementById("mc-embedded-subscribe").value = "Подписаться";
+  document.getElementById("email-info").innerHTML = 'Подписка на новости и обновления моих игр!';
   document.getElementById("mainLang").innerHTML = 'RU';
   document.getElementById("dropdown").innerHTML = '<a><button class="lang_btn" onclick="SwitchEng();">EN</button></a> <a href = "keras1n.github.io/ua"><button class="lang_btn"">UA</button></a>';
   document.getElementById("subtitle").innerText = "веб дев | гейм дев";
   document.getElementById("subtitle2").innerText = 'Эта страница была сделана просто потому что я не знаю какую ссылку подставлять под "Made by KeRas1n"';
-  document.getElementById("contact_btn").innerText = "Связаться со мной";
   document.getElementById("web_title").innerText = "Веб";
   document.getElementById("hooigle").innerHTML = '<p>Hooigle - твоя новая кастомизируемая и комфортная домашняя страница.</p> <p>В этом <span class="marked">single page application</span> вы сможете:</p>'+
           "<ul>"+
@@ -32,11 +33,12 @@ function SwitchEng(){
 
   history.pushState(null, null, "/");
 
+  document.getElementById("mc-embedded-subscribe").value = "Subscribe";
+  document.getElementById("email-info").innerHTML = 'Follow for news & updates of my games!';
   document.getElementById("mainLang").innerHTML = 'EN';
   document.getElementById("dropdown").innerHTML = '<a><button class="lang_btn" onclick="SwitchRus();">RU</button></a> <a href = "keras1n.github.io/ua"><button class="lang_btn"">UA</button></a>';
   document.getElementById("subtitle").innerText = "web dev | game dev";
   document.getElementById("subtitle2").innerText = 'This page was created just because i really dont know which link i should put under "Made by KeRas1n"';
-  document.getElementById("contact_btn").innerText = "Contact me";
   document.getElementById("web_title").innerText = "Web";
   document.getElementById("hooigle").innerHTML = '<p>Hooigle - your new customizable & comfortable home page.</p> <p>In this <span class="marked">single page application</span> you will be able to:</p>'+
           "<ul>"+

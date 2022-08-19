@@ -309,4 +309,60 @@ a:hover{
   .main-block{
   	width: 90%;
   }
+  .flex-email{
+	display: flex;
+	justify-content: center;
+	gap: 2px;
+	flex-wrap: wrap;
+}
+.email-form{
+	padding: 10px;
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
+/*-------- END MOBILE --------*/
+
+
+/*EMAIL FORM*/
+.email-form{
+	padding: 10px;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 45px;
+}
+.flex-email{
+	display: flex;
+	justify-content: center;
+	gap: 2px;
+}
+.email-input{
+	border: solid 1px gray;
+	transition: .2s;
+	outline: none;
+	width: 100%;
+	padding: 3px;
+	font-size: 16px;
+}
+.email-input:focus{
+	border: solid 1px black;
+}
+.email-button{
+	color: white;
+	background-color: #4708FF;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.email-info{
+	font-size: 14px;
+	color: gray;
 }
