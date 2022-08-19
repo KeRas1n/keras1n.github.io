@@ -38,6 +38,8 @@ body{
   width: 100%;
   background: none;
   height: 3px;
+  position: fixed;
+  top: 0;
 }
 
 #myBar {
