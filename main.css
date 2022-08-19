@@ -235,6 +235,7 @@ h1{
 	border-radius: 7px;
 	transition: .3s;
 	flex-basis: 250px;
+	box-shadow: 0 13px 19px rgb(0 0 0 / 0.2);
 }
 /*
 .card:hover{
@@ -306,6 +307,6 @@ a:hover{
 
 @media only screen and (max-width: 900px) {
   .main-block{
-  	width: 100%;
+  	width: 90%;
   }
 }
