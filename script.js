@@ -4,6 +4,7 @@ function SwitchRus(){
 
   history.pushState(null, null, "/ru");
 
+  document.getElementById("mainLang").innerHTML = 'RU';
   document.getElementById("dropdown").innerHTML = '<a><button class="lang_btn" onclick="SwitchEng();">EN</button></a> <a href = "keras1n.github.io/ua"><button class="lang_btn"">UA</button></a>';
   document.getElementById("subtitle").innerText = "веб дев | гейм дев";
   document.getElementById("subtitle2").innerText = 'Эта страница была сделана просто потому что я не знаю какую ссылку подставлять под "Made by KeRas1n"';
@@ -31,6 +32,7 @@ function SwitchEng(){
 
   history.pushState(null, null, "/");
 
+  document.getElementById("mainLang").innerHTML = 'EN';
   document.getElementById("dropdown").innerHTML = '<a><button class="lang_btn" onclick="SwitchRus();">RU</button></a> <a href = "keras1n.github.io/ua"><button class="lang_btn"">UA</button></a>';
   document.getElementById("subtitle").innerText = "web dev | game dev";
   document.getElementById("subtitle2").innerText = 'This page was created just because i really dont know which link i should put under "Made by KeRas1n"';
