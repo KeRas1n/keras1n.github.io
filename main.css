@@ -350,7 +350,7 @@ a:hover{
 
 @media only screen and (max-width: 900px) {
   .main-block{
-  	width: 90%;
+  	width: 86%;
   }
   .flex-email{
 	/*flex-wrap: wrap;*/
