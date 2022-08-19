@@ -305,29 +305,6 @@ a:hover{
 	margin-left: -20px;
 }
 
-/*mobile*/
-
-@media only screen and (max-width: 900px) {
-  .main-block{
-  	width: 90%;
-  }
-  .flex-email{
-	display: flex;
-	justify-content: center;
-	gap: 2px;
-	flex-wrap: wrap;
-}
-.email-form{
-	padding: 10px;
-	width: 80%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-}
-/*-------- END MOBILE --------*/
-
 
 /*EMAIL FORM*/
 .email-form{
@@ -368,3 +345,19 @@ a:hover{
 	font-size: 14px;
 	color: gray;
 }
+
+/*mobile*/
+
+@media only screen and (max-width: 900px) {
+  .main-block{
+  	width: 90%;
+  }
+  .flex-email{
+	/*flex-wrap: wrap;*/
+}
+.email-form{
+	width: 80%;
+}
+
+}
+/*-------- END MOBILE --------*/
