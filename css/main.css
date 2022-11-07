@@ -13,21 +13,36 @@ body{
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 	color:white;
-	font-size: 20px;
+	font-size: 40px;
 }
 a{
 	transition: .2s;
 	color:white;
 }
+button{
+	cursor: pointer;
+	background-color: none;
+	font-size: 40px;
+	border:2px solid;
+	padding:15px;
+	transition: .2s;
+	border-radius: 15px;
+	background-color:transparent;
+	color:white;
+}
 .itch:hover{
+	border-color:#fa5c5c;
 	color:#fa5c5c;
 }
 .twitter:hover{
+	border-color:#00acee;
 	color:#00acee;
 }
 .telegram:hover{
+	border-color:#0088cc;
 	color:#0088cc;
 }
+
 .mail:hover{
 	color:#0088cc;
 }
@@ -41,6 +56,7 @@ a{
 	align-content: center;
 	gap:20px;
 	flex-wrap: wrap;
+	margin-top:50px;
 }
 
 @keyframes gradient {
@@ -58,6 +74,6 @@ a{
 @media only screen and (max-width: 900px)  {
 	
 	body{
-		font-size: 30px;
+		font-size: 50px;
 	}
 }
